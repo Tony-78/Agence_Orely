@@ -13,7 +13,6 @@ body {
 
 #block {
     margin: 5px;
-    border: 1px solid black;
     padding: 5px;
 }
 
@@ -34,7 +33,6 @@ body {
     font-size: 19px;
     color:#092a5e;
     margin-top: 0px;
-    border: 1px solid black;
 }
 
 
@@ -81,17 +79,19 @@ body {
 
 
 /* FOURTH LIGN */
-
-
-
+#fourthLign {
+   margin-top: 12px;
+}
+#fourthLign p {
+    margin: 0;
+}
 
 
 /* FIFTH LIGN */
 
 #fifthLign {
     display: flex;
-    /* align-items: baseline; */
-    border: 1px black solid;
+    color: #d40e14;
 }
 
 #fifthLign p {
@@ -100,9 +100,8 @@ body {
 
 #totalPrice {
     color: #d40e14;
-    font-size: 15px;
+    font-size: 33px;
     font-weight: bold;
-   
 }
 
 #discount {
@@ -110,7 +109,8 @@ body {
     background-color: #d40e14;
     color: white;
     font-weight: bold;
-    padding: 2px;
+    padding: 6px 11px;
+    margin-left: 20px;
 }
 
 
@@ -122,19 +122,22 @@ body {
     font-weight: bold;
 }
 
+#sixthLign p {
+    margin :0;
+}
+
 /* SEVENTH LIGN */
 
 #seventhLign {
     display: flex;
     align-items: center;
-    border: 1px solid black;
+}
+
+#seventhLign p {
+    margin-left: 4px;
 }
 
 #logo3x{
     width: 35px;
     height: 35px;
-}
-
-#logo-i{
-    font-weight: bold;
 }
