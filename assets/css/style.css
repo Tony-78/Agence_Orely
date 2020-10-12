@@ -1,143 +1,134 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    color:#848384;
-    font-size: 15px ;
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 33%;
+    border: 1px solid #8B9194;
+    padding-bottom: 4em;
+    margin: auto;
 }
 
-
-#article-1{
-    border: 1px solid grey;
-    width: 435px;
-    height: 580px;
+.img {
+    margin-bottom: 1em;
 }
 
-#block {
-    margin: 5px;
-    padding: 5px;
+.img img {
+    width: 100%;
+    height: auto;
 }
 
-#hotel-picture {
-    height: 255px;
-    width: 435px;
-}
-
-
-
-/* FIRST LIGN */
-
-#firstLign{
+.first-row {
     display: flex;
+    padding: 0em 1em;
+    justify-content: space-between;
 }
 
-#title-club {
-    font-size: 19px;
-    color:#092a5e;
-    margin-top: 0px;
+.journey h1 {
+    color: #092A5E;
+    font-size: 2em;
+    margin-top: 0em;
+    margin-bottom: 0mm;
+}
+
+.journey h2 {
+    color: #8B9194;
+    font-size: 2em;
+    margin-top: 0mm;
+}
+
+.small-m img {
+    height: auto;
+    width: 2em;
 }
 
 
-.small-m{
-    height: 20px;
-    width: 20px;
-    margin-top: -5px;
+.logo-img {
+    height: auto;
+    width: 7em;
 }
 
-
-#logo-marmara {
-    width: 55px;
-    height: 55px;
-    margin-left: 50px;
-}
-
-
-/* SECOND LIGN */
-
-#secondLign{
-    margin-top: -30px;
-}
-
-/* THIRD LIGN */
-
-#thirdLign {
+.second-row {
     display: flex;
+    padding: 0em 1em;
     align-items: baseline;
 }
 
-#mark {
+.rating {
     color: #70cbf4;
-    font-weight: bold;
+    font-size: 2em;
+    padding: 0.1em;
+
 }
 
-#mark-size {
-    font-size: 20px;
+.rating p {
+    margin: 0em;
 }
 
-#view {
-    color:#092a5e;
-    margin-left: 10px;
+.mark-size {
+    font-size: 1.2em;
+
 }
 
+.review {
+    color: #092A5E;
+    font-size: 2em;
+    padding: 0.1em;
 
-/* FOURTH LIGN */
-#fourthLign {
-   margin-top: 12px;
-}
-#fourthLign p {
-    margin: 0;
 }
 
-
-/* FIFTH LIGN */
-
-#fifthLign {
-    display: flex;
-    color: #d40e14;
+.review p {
+    margin: 0em;
 }
 
-#fifthLign p {
-    margin: 0;
+.third-row {
+    padding: 0em 1em;
+
 }
 
-#totalPrice {
-    color: #d40e14;
-    font-size: 33px;
-    font-weight: bold;
+.third-row p {
+    color: #8B9194;
+    margin: 0em;
+    font-size: 2em;
 }
 
-#discount {
-    border: 1px #d40e14 solid;
-    background-color: #d40e14;
-    color: white;
-    font-weight: bold;
-    padding: 6px 11px;
-    margin-left: 20px;
-}
-
-
-
-/* SIXTH LIGN */
-
-#price-bar {
-    text-decoration: line-through;
-    font-weight: bold;
-}
-
-#sixthLign p {
-    margin :0;
-}
-
-/* SEVENTH LIGN */
-
-#seventhLign {
+.product-price,
+.product-price p {
+    color: #D40E14;
     display: flex;
     align-items: center;
 }
 
-#seventhLign p {
-    margin-left: 4px;
+
+.price {
+    font-size: 5em;
 }
 
-#logo3x{
-    width: 35px;
-    height: 35px;
+.i-price {
+    font-size: 2em;
+}
+
+.clearance {
+    color: white;
+    background-color: #D40E14;
+    font-size: 2em;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    margin-left: 1.5em;
+
+}
+
+.third-row span{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.fourth-row, .fourth-row p{
+    display: flex;
+    padding: 0em 1em;
+    color: #8B9194;
+    margin: 0em;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.fourth-row img{
+    width: 4em;
 }
