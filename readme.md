@@ -6,7 +6,7 @@ La *Web agency* **"Orély"** souhaite tester vos capacités en HTML et CSS. Pour
 
 Il s'agit d'une offre d'une agence de voyage : Marmara    
 
-![Piscine & Hotel](img/copycat.PNG "Piscine & Hotel")  
+![Piscine & Hotel](assets/img/copycat.PNG "Piscine & Hotel")  
 ***(Ne pas prendre en compte les petits points blancs sur la photo de la piscine)***
 
 ## Structure du dossier
